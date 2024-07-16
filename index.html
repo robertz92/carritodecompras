@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro Shop</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between; /* Alinea los elementos al extremo derecho e izquierdo */
+      align-items: center; /* Centra verticalmente los elementos */
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .navigation ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation ul li {
+      margin: 0 10px;
+    }
+
+    .navigation ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .navigation ul li a:hover {
+      color: #007bff;
+    }
+
+    .search-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon input[type="search"] {
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .search-icon .icon {
+      background-color: #007bff;
+      padding: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu logo-nav">
+        <a href="index.html" class="logo">ELECTROSHOP</a>
+        <label class="menu-icon"><span class="fas fa-bars icomin"></span></label>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li class="search-icon">
+            <input type="search" placeholder="Search">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+          <li class="car"><a href="carrito.html">
+            <svg class="bi bi-cart3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+<div class="slider">
+  <ul>
+    <li><img src="assets\img\ya.jpg" alt="..."></li>
+    <li><img src="assets\img\por.png" alt="..."></li>
+    <li><img src="assets\img\gogo.jpg" alt="..."></li>
+  </ul>
+</div>
+
+
+  <div class="container-index">
+
+    <div class="container-circulos">
+      <div class="container-imagen">
+        <img src="assets/img/tele.jpg" class="circulo">
+        <h2>Televisores</h2>
+      </div>
+      <div class="container-imagen">
+        <img src="assets/img/smart.jpg" class="circulo">
+        <h2>Smartphones</h2>
+      </div>
+      <div class="container-imagen">
+        <img src="assets/img/pa.jpg" class="circulo">
+        <h2>Consolas de videojuegos</h2>
+      </div>
+    </div>
+
+    <div class="ver-todo"><a class="button" href="productos.html">Ver todos</a></div>
+    
+    <div class="contenedor-columna">
+      <div class="columna1">
+        <h2>SOBRE ELECTROSHOP </h2>
+        <p>ElectroShop es tu destino confiable para los últimos y mejores productos electrónicos del mercado. 
+          Con una amplia gama de dispositivos de alta tecnología, desde smartphones hasta televisores inteligentes, nos aseguramos de que nuestros clientes encuentren exactamente lo que necesitan para satisfacer sus necesidades tecnológicas y de entretenimiento.</p>
+      </div>
+      <div class="columna2">
+        <img src="assets/img/he.jpg">
+      </div>
+    </div>
+
+  </div><br><br><br>  
+
+
+  <footer class="footer-section">
+    <div class="copyright-area">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2020, todos los derechos reservados <a href="index.html">ELECTROSHOP</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>   
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script  src="assets/js/scripts.js"></script>
+</body>
+</html>
+
